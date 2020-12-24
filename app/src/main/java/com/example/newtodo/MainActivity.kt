@@ -78,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         adapter.notifyDataSetChanged()
     }
 
+    // komentari
     private fun saveData() {
         listAsString = arrayList.joinToString(separator = "^")
         val sharedPrefs = getSharedPreferences(sharedPrefs, MODE_PRIVATE)
